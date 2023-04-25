@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2023, 9:57:35 AM
+    Author     : THANGNGUYEN
+*/
+/* This is home1.css */
+
+/* Reset the default styles of HTML elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font family and size for the body element */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Set the width and margin for the main container element */
+#main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Set the background color and padding for the public quizzes section */
+#public-quizzes {
+  background-color: #e6f2ff;
+  padding: 20px;
+}
+
+/* Set the border collapse and spacing for the table element */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set the border style and color for the table cells */
+td, th {
+  border: 1px solid #99ccff;
+}
+
+/* Set the padding and text alignment for the table cells */
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Set the font size and weight for the table header cells */
+th {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Set the font size and weight for the table title cell */
+td[colspan="100%"] {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Set the width and margin for the input elements */
+input[type="text"], input[type="submit"], select {
+  width: 200px;
+  margin: 5px;
+}
+
+/* Set the cursor style for the submit button */
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Center the table horizontally */
+table {
+  margin: 0 auto;
+}
+
+table {
+  width: 1000px;
+  height: 800px;
+}
+
+/* Center the public quizzes title */
+td[colspan="100%"] {
+  text-align: center;
+}
+
+/* Center the private quizzes section */
+#private-quizzes {
+  text-align: center;
+}
+
+/* Make the round frame more oval-shaped */
+#private-quizzes {
+  border: 5px solid transparent;
+  border-radius: 70% 30%;
+  border-image-slice: 1;
+}
